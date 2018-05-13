@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestGit
 {
-
-
-    class Program
+    public class Person
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello world");
-        }
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Age { get; set; }
+
     }
 }
